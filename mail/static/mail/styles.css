@@ -1,0 +1,37 @@
+textarea {
+    min-height: 400px;
+}
+
+#mailbox-name {
+    font-weight: bold;
+}
+
+#email-box {
+    position: relative;
+    border: solid black;
+    border-width: 2px;
+    padding-top: 5px;
+    padding-left: 7px;
+    margin-top: -2px;
+}
+
+#email-box:hover {
+    color: rgb(85, 139, 255);
+}
+
+#email-sender {
+    font-weight: bold;
+}
+
+#email-subject {
+    position: absolute;
+    left: 250px;
+    bottom: 0px;
+}
+
+#email-time {
+    position: absolute;
+    color: rgb(102, 102, 102);
+    left: 893px;
+    bottom: 0px;
+}
